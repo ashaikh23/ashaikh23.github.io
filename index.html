@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Soccer Skills and Technics </title>
+  </head>
+
+  <body background="http://img17.laughinggif.com/pic/HTTP3JhY2hhZWxlbGkuY29tL2ltYWdlcy9SYWNoYWVsU29jY2VyQmFsbC5naWYlog.gif"> </body>
+  <font size="25" >Soccer Skills and Technics </font>
+  <hr>
+  <script>
+    function startTime() {
+      var today = new Date();
+      var h = today.getHours();
+      var m = today.getMinutes();
+      var s = today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById('txt').innerHTML =
+        h + ":" + m + ":" + s;
+      var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+      if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+      return i;
+    }
+  </script>
+  </head>
+
+<body onload="startTime()">
+
+  <div id="txt"></div>
+
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a, .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover, .dropdown:hover .dropbtn {
+      background-color: red;
+    }
+
+    li.dropdown {
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {background-color: #f1f1f1}
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+  </head>
+<body>
+
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="./Apparel.htm">Apparel</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Videos</a>
+      <div class="dropdown-content">
+        <a href="./Dribbling.htm">Dribbling Tips</a>
+        <a href="./Turning.htm">Turning Tips</a>
+        <a href="#">BETA</a>
+      </div>
+    <li><a href="./About.htm">About</a></li>
+    <li><a href="./Games.htm">Games</a></li>
+  </ul>
+
+  <p> In this website we will discus on how you can improve your skills</p> 
+  <h1 style="color:Red">Dribbling </h1>  <img src="https://media.giphy.com/media/ObJa4Y5ZFTaP6/giphy.gif" alt="Dribbling" width="300" height="250" align="right"> 
+  <h1 style="color:Orange">Turning </h1>
+  <h1 style="color:Yellow">Crossing </h1>
+  <h1 style="color:Green">Heading </h1>
+  <h1 style="color:Blue">Tackling </h1> 
+  <h1 style="color:Purple">Passing </h1>
+  <h1 style="color:Violet"> Shooting </h1>   
+  <h1 style="color:Brown"> Ball Control </h1>
+  <h1 style="color:Black">Dribbling </h1>
+
+  <hr>
+
+  <font size="20" color="blue" style="font-weight:bold"> Designed By Aymaan </font>
+  <img src="https://media.giphy.com/media/2n5KXXa5sZEli/200.gif" alt="Crossing"width="300" height="250" align="right">    
+
+</body>
+</html>
