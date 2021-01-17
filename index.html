@@ -1,42 +1,50 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Aymaan Shaikh</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Aymaan Personal Website</title>
+
+    <link rel="stylesheet" href="style.css" />
   </head>
 
-
   <body>
-    <div id="my-site-content">
-      <div class="title">
-        <div class="print-only">
-          <p><a href="https://aymaan.tech">https://aymaan.tech</a></p>
-        </div>
-        <h1 contenteditable="true" id="title-name">Aymaan Shaikh</h1>
-        <p>
-          Student Developer and Technology Enthusiast
-        </p>
-        <a href="https://user-images.githubusercontent.com/34725789/104076767-08af5100-51e5-11eb-8b04-24cd0938cb80.jpg" target="_blank">
-          <img src="https://user-images.githubusercontent.com/34725789/104076767-08af5100-51e5-11eb-8b04-24cd0938cb80.jpg" class="avatar">
-        </a>
-        <p style="font-family:'fantasy'">Burlington High School Poetry Out Loud Audience Choice Winner 2021</p>
-        
-        <h2>Hi, my name is Aymaan Shaikh, and I'm a senior at Burlington High school. My favorite tropical fruit is Mango, and I relish Pineapple Pizza. I'm passionate about technology, programming, and improving my community. Also, I have 21 budgies. </h2>
+    <section class="banner" id="sec">
+      <header>
+        <a href="#" class="logo">:)</a>
+        <div id= "toggle" onclick="toggle()"</div>
+      </header>
+
+      <div class="content">
+        <h2>ٱلسَّلَامُ عَلَيْكُمْ,<br>I'm <span> Aymaan Shaikh </span></h2> 
+        <p>Student Developer and Technology Enthusiast</p>
+        <a href="#">Know More</a>
       </div>
-      <div class="social-media">
-        <p>
-          <a href="https://github.com/ashaikh23/">GitHub</a>
-          <a href="https://www.linkedin.com/in/aymaan-shaikh-ab3270203/">LinkedIn</a>
-        </p>
-        <p>
-          <a href="mailto:shaikh.aymaan@yahoo.com">shaikh.aymaan@yahoo.com</a>
-        </p>
-      </div>
-    <script src="script.js"></script>
+
+      <ul class="sci">
+        <li><a href="mailto:shaikh.aymaan@yahoo.com"><img src="xxxxxas.png"></a></li>
+        <li><a href="https://github.com/ashaikh23/"><img src="github.png"></a></li>
+        <li><a href="https://www.linkedin.com/in/aymaan-shaikh-ab3270203/"><img src="linkedin.png"></a></li>
+      </ul>
+    </section>
+
+    <div id="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <script type="text/javascript">
+      function toggle(){
+        var sec = document.getElementById('sec');
+        var nav = document.getElementById('navigation');
+        sec.classList.toggle('active');
+        nav.classList.toggle('active');
+      }
+    </script>
   </body>
 </html>
