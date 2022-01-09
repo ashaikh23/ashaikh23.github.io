@@ -8,18 +8,6 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <script type="text/javascript">
-            var element = new Image;
-            var devtoolsOpen = false;
-            element.__defineGetter__("id", function() {
-                devtoolsOpen = true; // This only executes when devtools is open.
-            });
-            setInterval(function() {
-                devtoolsOpen = false;
-                console.log(element);
-                document.getElementById('output').innerHTML += (devtoolsOpen ? "dev tools is open\n" : "dev tools is closed\n");
-            }, 1000);
-      </script>
     <header>
       <a href="#" class="logo">:)</a>
       <div class="toggle" onclick="toggleMenu();"></div>
@@ -171,7 +159,7 @@
       </div>
     </section>
     <div class="copyright">
-      <p>©2021 Aymaan Shaikh</p>
+      <p>©2021-2022 Aymaan Shaikh</p>
     </div>
 
     <script type="text/javascript">
