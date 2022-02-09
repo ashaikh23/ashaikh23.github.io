@@ -8,7 +8,13 @@ Engaged in an interactive virtual experience and to gain insight into career opp
 Participated in an Automation Challenge working in a team alongside RSM consultants, using Robotics Process Automation (RPA) to create a bot to automate processes.
 ---
 UML Resaerch
+I did research
 --
+Hackathons:
+Participant at MIT Blueprint, HackMIT, Blueprint is a weekend-long learnathon and hackathon for local high school students, Feb 2020
+Participant at LexHack, LexHack, Sept 2017
+--
+Difference maker dcu challenge
 ArcGis
 iPhone Models
 3D Modles
