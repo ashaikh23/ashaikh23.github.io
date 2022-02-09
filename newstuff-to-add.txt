@@ -7,6 +7,8 @@ Engaged in an interactive virtual experience and to gain insight into career opp
 
 Participated in an Automation Challenge working in a team alongside RSM consultants, using Robotics Process Automation (RPA) to create a bot to automate processes.
 ---
+UML Resaerch
+--
 ArcGis
 iPhone Models
 3D Modles
