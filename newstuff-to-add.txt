@@ -1,6 +1,11 @@
 Popclo
 iOS Developer Intern
-
+POPCLO APP | Remote
+iOS Developer 
+Swift | SwiftUI | UIKit | Firebase | MapKit  
+Leading the front end team at an early stage start-up
+Using both UIKit and SwiftUI to create designs that match wireframes
+Working with other developers to integrate Firebase to manage user data                     
 ---
 RSM Pathways Experience Jan 2022
 
