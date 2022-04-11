@@ -18,7 +18,10 @@ UML Resaerch
 I did research
 --
 Hackathons:
+----
 National Cyber League (NCL) powered by CyberSky Line Apr 2022
+Open Source Intelligence, Cryptography, Password Cracking, Log Analysis, Network Traffic Analysis, Forensics, Scanning & Reconnaissance, Web Application Exploitation, Enumeration & Exploitation
+---
 Participant at MIT Blueprint, HackMIT, Blueprint is a weekend-long learnathon and hackathon for local high school students, Feb 2020
 Participant at LexHack, LexHack, Sept 2017
 --
