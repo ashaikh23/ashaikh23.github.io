@@ -1,5 +1,6 @@
 Neo4j.com
 Darktrace
 ArcGis
+Vercel
 
 Make some iPhone app models and various side projects
