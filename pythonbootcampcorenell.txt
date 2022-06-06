@@ -1,0 +1,20 @@
+Weekly Description
+Data science is one of today’s most in-demand functions — and it involves human construction of models to make sense of data. Mastering the ability to analyze and visualize data in meaningful ways using Python is a critical step in your eventual study of machine learning and artificial intelligence, which automate the process of pattern discovery and statistical modeling of data. 
+
+This week, you'll start by exploring Python as a programming language and as an ecosystem of packages that support various kinds of data analyses and data visualizations. You will review and practice key features of Python that will allow you to build data analysis pipelines, and you will learn how to combine the built-in functionality of Python along with custom code to unleash the power of your data analysis pipeline.
+
+Articulate general design and features of Python and its relationship to other programming languages
+Use built-in Python data types, functions, and methods
+Assign and access variables
+Call built-in functions and methods to manipulate data
+Combine variables and data in expressions
+Leverage Python as a powerful calculator
+Write custom Python functions
+Use basic elements of control flow and iteration in Python
+Dive into Python container data types
+Create new custom Python data types with classes
+Crafting a Data Processing Pipeline in Python
+
+Chris Myers
+Senior Research Associate and Adjunct Professor
+Center for Advanced Computing, Cornell University
