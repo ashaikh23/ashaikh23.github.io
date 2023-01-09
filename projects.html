@@ -1,23 +1,174 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Aymaan Shaikh Projects</title>
+    <style>
+        body {
+        background-color: #222;
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1rem;
+        line-height: 1.5;
+        margin: 0;
+        padding: 2rem;
+      }
+
+      h1 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: white;
+        margin-bottom: 2rem;
+      }
+
+      .projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .project {
+        width: 30%;
+        margin-bottom: 2rem;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+      }
+
+      .project h2 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: lightcoral;
+        margin-bottom: 0.5rem;
+      }
+
+      .project h3 {
+        font-family: "Roboto", sans-serif;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: white;
+      }
+      .container {
+          margin: 0 auto;
+          width: 100%;
+          text-align: center;
+          font-size: 0;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 400;
+          background: #ffffff;
+      }
+            .btn {
+          position: relative;
+          display: inline-block;
+          margin: 15px;
+          padding: 12px 27px;
+          text-align: center;
+          font-size: 16px;
+          letter-spacing: 1px;
+          text-decoration: none;
+          color: #999999;
+          background: #ffffff;
+          border: 3px solid #999999;
+          cursor: pointer;
+          transition: ease-out 0.5s;
+          -webkit-transition: ease-out 0.5s;
+          -moz-transition: ease-out 0.5s;
+      }
+
+      .btn.btn-border-1::after,
+      .btn.btn-border-1::before {
+          position: absolute;
+          content: "";
+          width: 0%;
+          height: 0%;
+          visibility: hidden;
+      }
+
+      .btn.btn-border-1::after {
+          bottom: -3px;
+          right: -3px;
+          border-left: 3px solid #222222;
+          border-bottom: 3px solid #222222;
+          transition: width .1s ease .1s, height .1s ease, visibility 0s .2s;
+      }
+
+      .btn.btn-border-1::before {
+          top: -3px;
+          left: -3px;
+          border-top: 3px solid #222222;
+          border-right: 3px solid #222222;
+          transition: width .1s ease .3s, height .1s ease .2s, visibility 0s .4s;
+      }
+
+      .btn.btn-border-1:hover {
+          animation: pulse 1s ease-out .4s;
+          color: #222222;
+      }
+
+      .btn.btn-border-1:hover::after,
+      .btn.btn-border-1:hover::before {
+          width: calc(100% + 3px);
+          height: calc(100% + 3px);
+          visibility: visible;
+          transition: width .1s ease .2s, height .1s ease .3s, visibility 0s .2s;
+      }
+
+      .btn.btn-border-1:hover::after {
+          transition: width .1s ease .2s, height .1s ease .3s, visibility 0s .2s;
+      }
+
+      .btn.btn-border-1:hover::before {
+          transition: width .1s ease, height .1s ease .1s;
+      }
+    </style>
+  </head>
 <body>
+<h1>Projects</h1>
+ <div class="container">
+   <h4 class="title">CSS Button Hover Effect</h4>
+  <a class="btn btn-border-1" href="ashaikh23.github.io">Home</a>
+ </div>
+<div class="projects">
+  <div class="project">
+    <h2>The Hunted</h2>
+    <ul>
+      <li>3D Hide and Seek Game made for submission to the MIT Blueprint 2020 Hackathon</li>
+      <li>Built with AI in Unity using C#</li>
+    </ul>
+  </div>
+  <div class="project">
+    <h2>Generating Novel Rhythms with ML</h2>
+    <ul>
+      <li>Using ML to generate novel rhythms by using the idea of interpolation</li>
+      <li>(For example, if the dataset you use does not represent changes in a numeric value but something more complex like sound: AKA rhythm.)</li>
+    </ul>
+  </div>
+  <div class="project">
+    <h2>Predicting visitor purchases (with BigQuery ML & GCP)</h2>
+    <ul>
+      <li>Utilize a comprehensive ecommerce dataset containing millions of records from Google Analytics for the Google Merchandise Store, which has been loaded into BigQuery. With this data, we will </li>
+      <li>Perform various queries to gain insight into the purchasing behavior of our customers and make informed decisions for our business</li>
+    </ul>
+  </div>
+  
+  <div class="project">
+    <h2>What kind of cloud? Weather predictor (GCP)</h2>
+    <ul>
+      <li>Bullet point 1</li>
+      <li>Bullet point 2</li>
+    </ul>
+  </div>
 
-<h2>Old Project (During High School)</h2>
-
-<ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>  
-
-<h2>An Ordered of Projects</h2>
-
-<ol>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol> 
-
+  <div class="project">
+    <h2>Project 3</h2>
+    <ul>
+      <li>Bullet point 1</li>
+      <li>Bullet point 2</li>
+    </ul>
+  </div>
+  
+</div>
 </body>
-</html>
-
